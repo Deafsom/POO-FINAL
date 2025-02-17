@@ -145,7 +145,7 @@ class Participantes:
         #Botón Consultar
         self.btnConsultar = ttk.Button(self.win)
         self.btnConsultar.configure(text="Consultar", width="9")
-        self.btnConsultar.place(anchor="nw", rely="0.75", x="275", y="0")
+        self.btnConsultar.place(anchor="nw", rely="0.75", x="120", y="30")
         self.btnConsultar.bind("<1>", self.consulta_Registro, add="+")
     
 
